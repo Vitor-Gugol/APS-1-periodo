@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(344.92deg, #634a00 -91.75%, #000000 49.81%);
+}
+header {
+  background: linear-gradient(344.92deg, #634a00 -91.75%, #000000 49.81%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+
+  height: 15vh;
+  flex-wrap: wrap;
+}
+.footerHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.TitleFooter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 36px;
+  color: white;
+}
+.pFooter {
+  width: 500px;
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+.whats {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.fundoHeader {
+  background: linear-gradient(344.92deg, #634a00 -91.75%, #000000 49.81%);
+}
+
+.butttonsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.butheader {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.butheader:hover {
+  border-bottom: solid 1px white;
+  color: #ffffff;
+}
+.personLogo {
+  color: white;
+}
+
+.mainAlign {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.imgLogo {
+  width: 90px;
+  height: 80px;
+}
+.container {
+  background: linear-gradient(
+    133.55deg,
+    rgba(255, 192, 0, 0.44) 8.39%,
+    rgba(204, 157, 17, 0.44) 28.92%,
+    rgba(90, 81, 53, 0.44) 74.37%
+  );
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.NotCont {
+  display: flex;
+  width: 75%;
+}
+.NotCont .fonte {
+  font-size: 20px;
+}
+.NotCont:hover {
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  .fonte {
+    font-weight: bold;
+  }
+  .imgNot:hover {
+    width: 320px;
+  }
+}
+.imgNot {
+  width: 300px;
+  border-radius: 9px;
+}
+
+.textContent {
+  width: 100%;
+  padding: 20px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+.imgHome1 {
+  height: 58vh;
+}
+.containerHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: initial;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .containerHome {
+    flex-wrap: wrap;
+  }
+  .butheader {
+    font-size: 16px;
+  }
+  .imgLogo {
+    display: none;
+  }
+  .InputRegister {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .CardLogin2 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .CardLogin1 {
+    width: 0px;
+    display: none;
+  }
+  .LogoLogin {
+    width: 0px;
+    height: 0px;
+    display: none;
+  }
+}
+@media screen and (max-width: 770px) {
+  .imgNot {
+    display: none;
+  }
+  .containerHome {
+    flex-wrap: wrap;
+    width: 100%;
+    background: transparent;
+  }
+  .carousel {
+    width: 100%;
+  }
+
+  .imgCarrosel {
+    border-radius: 20px;
+    width: 100%;
+  }
+  .imgLogo {
+    display: none;
+  }
+  .CardLogin2 {
+  }
+}
+
+@media (max-width: 1200px) and (max-height: 900px) {
+  .imgCarrosel {
+    display: none;
+  }
+  .carousel {
+    display: none;
+  }
+  .fonte {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 362px) {
+  .imgCarrosel {
+    display: none;
+  }
+  .carousel {
+    display: none;
+  }
+  .fonte {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 324px) {
+  .imgCarrosel {
+    display: none;
+  }
+  .carousel {
+    display: none;
+  }
+  .fonte {
+    font-size: 12px;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 40px;
+}
+
+.containerAlign {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.imG {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.CardLogin2 {
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 27px;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardLogin1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
+  height: 70vh;
+}
+.LogoLogin {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+.TitleLogin {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.InputLogin {
+  width: 35vh;
+  height: 7vh;
+  background: rgba(217, 217, 217, 0.15);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  border: none;
+  padding: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.InputLogin:focus {
+  border: solid 1px #ffffff;
+  box-shadow: 0 0 0 2px var(#ffffff);
+}
+.InputLogin::placeholder {
+  color: white;
+  font-family: "Inter";
+}
+.InputL {
+  height: 7vh;
+  background: rgba(217, 217, 217, 0.15);
+  box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  width: 17vh;
+  margin: 6vh;
+  cursor: pointer;
+}
+.InputL:hover {
+  border: solid 1px #ffffff;
+}
+.alignCardLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-top: 40px;
+  margin-bottom: 2vh;
+}
+.EsqueciSenha {
+  text-decoration: underline;
+  color: white;
+  font-size: 11px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 15px;
+}
+.fonte {
+  color: white;
+}
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vh;
+  padding: 27px;
+}
+.InputsRegister {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-top: 3vh;
+}
+.alignRecovery {
+  margin-right: 30vh;
+}
+.alignContainerRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InputRegister {
+  width: 55vh;
+}
+.InputSubmitRegister {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}
+.tamanho {
+  width: 10px;
+}
+.imgCarrosel {
+  border-radius: 20px;
+  max-width: 600px;
+}
+.containerHomeText {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.main {
+  background: linear-gradient(106.91deg, #000000 3.69%, #c2c398 139.24%);
+}
+.imgPro {
+  height: 200px;
+  border-radius: 9px;
+}
+.alignPro1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.fontesRenovaveis {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.fontesRenovaveis2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.FontesRenoText {
+  height: auto;
+}
+.graphText {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.alignSol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.color {
+  background: linear-gradient(
+    133.55deg,
+    rgba(255, 192, 0, 0.44) 8.39%,
+    rgba(204, 157, 17, 0.44) 28.92%,
+    rgba(90, 81, 53, 0.44) 74.37%
+  );
+
+  height: auto;
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.color:hover {
+  border-bottom: solid 1px white;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  color: #dad9bd;
+}
